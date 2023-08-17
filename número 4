@@ -1,0 +1,17 @@
+#include<stdio.h>
+main(){
+
+float real;
+float dolar;
+float conversao;
+
+printf("digite o valor em reais");
+scanf("%2f", &real);
+
+printf("digite a cotação do dolar");
+scanf("%2f, &dolar);
+
+conversao= real / dolar;
+
+printf("o valor em dolar e igual a: %2F", conversao);
+}
