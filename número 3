@@ -1,0 +1,17 @@
+#include<stdio.h>
+main(){
+
+float largura;
+float comprimento;
+float area;
+
+printf("digite a largura");
+scanf("%2f",&largura);
+
+printf("digite o comprimento);
+scanf("%2f", &comprimento);
+
+area= largura * comprimento
+
+printf("a area da sala e : %.2fm2", area);
+}
