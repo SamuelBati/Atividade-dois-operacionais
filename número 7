@@ -1,0 +1,16 @@
+#include<stdio.h>
+main(){
+
+doble raio;
+doble pi;
+doble area;
+
+printf("digite o valor do raio");
+scanf("%lf", &raio);
+
+pi=3.1415;
+
+area= pi*(raio*raio);
+
+printf("a area do circulo e: %lf", area);
+}
