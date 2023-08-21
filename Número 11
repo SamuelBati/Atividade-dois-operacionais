@@ -1,0 +1,21 @@
+#include<stdio.h>
+main(){
+
+float salario, comissao, ncarros, tvendas, porcentagemporcima=0.05, salariofinal;
+
+printf("Digite o numero de carros vendidos");
+scanf("%f", &ncarros);
+
+printf("\nDigite o numero total recebido pelas vendas");
+scanf("%f", &tvendas);
+
+printf("\ndigite a comissao por carro vendido")
+scanf("%f", &comissao);
+
+printf("Digite o salario fixo");
+scanf("%f", &salario);
+
+salariofinal= salario+(ncarros*comissao)+(tvendas*porcentagemporcima);
+
+printf("O salario final e igual a:R$.2f", salariofinal);
+}
