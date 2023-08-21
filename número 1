@@ -1,3 +1,21 @@
 #include<stdio.h>
 main(){
 
+int numeroum, numerodois, resultadodiv, resultadosoma, resultadosub, resultadovezes;
+
+printf("Digite o primeiro numero");
+scanf("%d", &numeroum);
+
+printf("Digite o segundo numero");
+scanf("%d", &numerodois);
+
+resultadodiv= numeroum/numerodois;
+resultadosoma= numeroum+numerodois;
+resultadosub= numeroum-numerodois;
+resultadovezes= numeroum*numerodois;
+
+printf("\nO resultado da divisao e:%d", resultadodiv);
+printf("\nO resultado da soma e:%d", resultadosoma);
+printf("\nO resultado da subtracao e:%d", resultadosub);
+printf("\nO resultado da multiplicacao e:%d", resultadovezes);
+}
