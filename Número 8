@@ -1,0 +1,18 @@
+#include<stdio.h>
+main(){
+
+int anos, meses, dias, totaldedias;
+
+printf("Digite quantos anos completos voce tem");
+scanf("%d", &anos);
+
+printf("Digite quantos meses completos voce tem, depois dos anos completos");
+scanf("%d", &meses);
+
+printf("Digite quantos dias completos voce tem, depois dos anos e meses");
+scanf("%d", &dias);
+
+totaldedias=(anos*365)+(meses*30)+dias;
+
+printf("voce viveu um total de:%d", totaldedias);
+}
