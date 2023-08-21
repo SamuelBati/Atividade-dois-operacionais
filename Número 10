@@ -1,0 +1,15 @@
+#include<stdio.h>
+main(){
+
+float custofabrica, custofinal, porcentagemimposto, porcentagemdistribuidor;
+
+porcentagemimposto=0.45
+porcentagemdistribuidor=0.28
+
+printf("Digite o custo de fabrica do carro");
+scanf("%f", &custofabrica);
+
+custofinal=(custofabrica*porcentagemimposto)+(custofabrica*porcentagemdistribuidor)+custofabrica;
+
+printf("Ocusto final e igual a:R$.2f", custofinal);
+}
